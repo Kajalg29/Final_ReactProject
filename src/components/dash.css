@@ -1,0 +1,23 @@
+.disp-dash{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* .dash-content{
+    background-color: white;
+    height: 100vh;
+} */
+@media screen and (min-width:576px) and (max-width: 767px) {
+    .dash-content{
+       margin: auto;
+    }
+  
+    .nav-menu-items{
+        width: fit-content;
+    }
+}
+@media screen and (min-width:337px) and (max-width: 471px){
+    .disp-dash{
+        display: inline-block;
+    }
+}

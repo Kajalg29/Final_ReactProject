@@ -1,0 +1,44 @@
+.main {
+    /* background-color: #d7edf1; */
+    /* width: 100vw; */
+    display: flex;
+      justify-content: center;
+     
+  }
+  .products-container {
+    background-color: #fff;
+    border-radius: 15px;
+    width: 100%; 
+   margin: 5%; 
+ display: flex;
+ justify-content: center;
+   
+  }
+  .singlecard{
+      /* padding: 10px; */
+      height: auto;
+  }
+  .center{
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+  }
+  /* img:hover{
+    display: block;
+	position: absolute;
+	top: 0px;
+	left: 170px;
+	width: 320px;
+	margin: 0px;
+	padding: 10px;
+	color: #335500;
+	font-weight: normal;
+	background: #e5e5e5;
+	text-align: left;
+	border: 1px solid #666;
+  } */
+  /* .main-sid{
+    display: flex;
+} */
+
+  
