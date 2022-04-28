@@ -263,24 +263,26 @@ export class ProductList extends Component {
                   <div className="card mb-3 cards card-border">
                     <div className="row rows g-0">
                       <div className="col-md-4">
+                      <Link
+                              to={`/products/${product.id}`}
+                             
+                            >
                         <img
                           src={product.image}
                           className="img-fluid rounded-start"
                           alt="..."
                         />
+                        </Link>
                       </div>
                       <div className="col-md-8">
                         <div className="card-body">
                           <button className="btn btn-primary" data-testid="btn-cat" id="CatBtn">
                             {product.category}
                           </button>
-                          <h3>
-                            <Link
-                              to={`/products/${product.id}`}
-                              className="card-title text-link"
-                            >
+                          <h3  className="card-title text-link">
+                          
                               {product.title}
-                            </Link>
+              
                           </h3>
                           <p className="card-text">{product.description.substring(0,200)}</p>
                           <h6 className="card-title">

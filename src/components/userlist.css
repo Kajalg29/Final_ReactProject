@@ -9,7 +9,12 @@
       display: flex;
       justify-content: space-between;
   }
-  @media  (max-width: 770px){
+  .gmap{
+      color: red;
+      font-size: 30px;
+     margin: auto;
+  }
+  @media  (max-width: 111px){
 .disp{
     display: inline-block;
 }

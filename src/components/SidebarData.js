@@ -22,7 +22,7 @@ export const  SidebarData = [
   },
    {
     title: 'FileManager',
-    path: '/userdetails',
+    path: '/Dash',
     icon: <IoIcons.IoIosPaper />,
     cName: 'nav-text',
   },

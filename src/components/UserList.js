@@ -3,7 +3,7 @@ import axios from "axios";
 import ReactPaginate from "react-paginate";
 import Sidebar from "./Sidebar";
 import "./userlist.css";
-import { Navigate } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 export default class UserList extends React.Component {
   constructor(props) {
     super(props);
@@ -94,6 +94,7 @@ export default class UserList extends React.Component {
                   <th scope="col">Website</th>
                   <th scope="col">City</th>
                   <th scope="col">Zipcode</th>
+                  <th>Location</th>
                 </tr>
               </thead>
 
@@ -104,11 +105,12 @@ export default class UserList extends React.Component {
                       <th scope="row" >
                         <input type="checkbox" />{item.id}
                       </th>
-                      <td>{item.name}</td>
+                      <td ><Link to={`/userdetails/${item.id}`} style={{textDecoration:"none"}}>{item.name}</Link></td>
                       <td>{item.email}</td>
                       <td>{item.website}</td>
                       <td>{item.address.city}</td>
                       <td>{item.address.zipcode}</td>
+                      <td><i className="fa fa-map-marker gmap"></i></td>
                     </tr>
                   </tbody>
                 );

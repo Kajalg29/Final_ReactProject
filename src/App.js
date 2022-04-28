@@ -38,7 +38,7 @@ function App() {
           <Route exact path='/products/:id' element={<Product />} />
           <Route exact path='/UserList' element={<UserList />} />
           <Route exact path='/adduser' element={<AddUser />} />
-          <Route exact path='/userdetails' element={<UserDetails />} />
+          <Route exact path='/userdetails/:id' element={<UserDetails />} />
           <Route exact path='/message/:id' element={<Message />} />
           <Route exact path='/logout' element={<Logout />} />
           <Route  path="*" element={<NoPage />} />

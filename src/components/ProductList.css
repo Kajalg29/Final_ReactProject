@@ -43,6 +43,7 @@ margin: 5px;
 .pagi{
     display: flex;
     justify-content: center;
+   
 }
 .vertical-center {
     min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
@@ -56,6 +57,7 @@ margin: 5px;
     display: flex;
     list-style: none;
     outline: none;
+    padding-left: 50%;
   }
   .pagination > .active > a{
     background-color: #47ccde ;

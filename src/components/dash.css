@@ -1,12 +1,13 @@
 .disp-dash{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
 }
-/* .dash-content{
+.dash-content{
     background-color: white;
-    height: 100vh;
-} */
+   margin: auto;
+    /* height: 100vh; */
+}
 @media screen and (min-width:576px) and (max-width: 767px) {
     .dash-content{
        margin: auto;
